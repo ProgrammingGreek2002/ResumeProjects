@@ -8,6 +8,7 @@ when N > 12 to keep runtime reasonable. Includes a second solver variant (labele
 total distance. (Educational demo; distances use simple Euclidean lat/long, not haversine.)
 
 **K-Means Clustering from Scratch**
+
 This mini project implements K-Means clustering (k=2) in pure Python to group city locations by latitude/longitude. 
 It reads city_data_50.csv, uses Euclidean distance to iteratively assign points and update centroids until convergence,
 and visualizes the data before and after clustering with Matplotlib/Seaborn. Outputs include cluster sizes, final centroid 
